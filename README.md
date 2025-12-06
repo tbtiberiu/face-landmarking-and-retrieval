@@ -5,10 +5,13 @@ This repository contains code for face landmark localization on the Siblings Dat
 
 ## Requirements
 - Python 3.x
+- PyTorch
+- torchvision
 - OpenCV
 - NumPy
 - scikit-learn
 - matplotlib
+- Pillow
 
 ## Metrics
 The performance of the landmark localization is evaluated using ME17 which is the mean distance between 17 internal facial points located by the search and the corresponding manually landmarked points, divided by the distance between the manual eye pupils. The landmark points chosen are the following: eye corners (4), eyelids (8), mouth corners (2), upper and lower lip points (2), and nose tip (1).
